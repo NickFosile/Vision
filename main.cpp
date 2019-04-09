@@ -6,7 +6,8 @@
 #include <chrono>
 
 Terminal t;
-
+/* Code here is a bit messy because I hardcode some values in order to check if the network
+is built and working. I will correct it soon.*/
 int main(){
     std::ifstream in;
     in.open("banner", std::ios::in);
